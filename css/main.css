@@ -1677,7 +1677,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4934ff;
+  background: #06ffe9;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2528,7 +2528,11 @@ embed {
   display: inline-block;
 }
 body {
-  background: url("/images/backGround.jpg") fixed;
+  background: url("/images/backGround.jpg");
+  background: url("https://huyihui.github.io/images/backGround.jpg");
+  filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
 }
 .content {
   background-color: rgba(255,255,255,0.7);
