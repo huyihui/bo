@@ -1677,7 +1677,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #557fff;
+  background: #a4ffdb;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2529,4 +2529,6 @@ embed {
 }
 body {
   background: url("/images/backGround.jpg");
+  background-attachment: fixed;
+  background-color: #f0f;
 }
