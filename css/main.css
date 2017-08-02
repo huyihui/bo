@@ -1677,7 +1677,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e27a9c;
+  background: #6aff58;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2528,10 +2528,11 @@ embed {
   display: inline-block;
 }
 body {
-  background: url("/images/backGround.jpg");
-  background: url("https://huyihui.github.io/images/backGround.jpg");
-  filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+  background: url("/images/backGround.jpg") no-repeat fixed center top;
+  -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
+  -ms-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
   background-size: 100% 100%;
 }
 .content {
