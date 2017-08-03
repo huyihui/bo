@@ -95,12 +95,12 @@
 
 <meta name="description" content="一亩三分地">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Stack">
+<meta property="og:title" content="STACK">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="Stack">
+<meta property="og:site_name" content="STACK">
 <meta property="og:description" content="一亩三分地">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Stack">
+<meta name="twitter:title" content="STACK">
 <meta name="twitter:description" content="一亩三分地">
 
 
@@ -110,7 +110,7 @@
   var CONFIG = {
     root: '/',
     scheme: 'Muse',
-    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":true},
     fancybox: true,
     motion: true,
     duoshuo: {
@@ -135,7 +135,7 @@
 
 
 
-  <title>Stack</title>
+  <title>STACK</title>
   
 
 
@@ -173,12 +173,12 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Stack</span>
+        <span class="site-title">STACK</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle"></p>
+        <h1 class="site-subtitle" itemprop="description"></h1>
       
   </div>
 
@@ -329,7 +329,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Stack">
+      <meta itemprop="name" content="STACK">
     </span>
 
     
@@ -337,9 +337,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/08/03/4/" itemprop="url">Lose Nothing</a></h1>
+                <a class="post-title-link" href="/2017/08/03/4/" itemprop="url">Lose Nothing</a></h2>
         
 
         <div class="post-meta">
@@ -445,7 +445,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Stack">
+      <meta itemprop="name" content="STACK">
     </span>
 
     
@@ -453,9 +453,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/08/02/3/" itemprop="url">Be brave</a></h1>
+                <a class="post-title-link" href="/2017/08/02/3/" itemprop="url">Be brave</a></h2>
         
 
         <div class="post-meta">
@@ -561,7 +561,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Stack">
+      <meta itemprop="name" content="STACK">
     </span>
 
     
@@ -569,9 +569,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/08/01/2/" itemprop="url">Far Away</a></h1>
+                <a class="post-title-link" href="/2017/08/01/2/" itemprop="url">Far Away</a></h2>
         
 
         <div class="post-meta">
@@ -677,7 +677,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Stack">
+      <meta itemprop="name" content="STACK">
     </span>
 
     
@@ -685,9 +685,9 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/07/04/hello-world/" itemprop="url">我的第一篇</a></h1>
+                <a class="post-title-link" href="/2017/07/04/hello-world/" itemprop="url">我的第一篇</a></h2>
         
 
         <div class="post-meta">
@@ -814,8 +814,8 @@
                alt="huyihui" />
           <p class="site-author-name" itemprop="name">huyihui</p>
            
-              <p class="site-description motion-element" itemprop="description">一亩三分地</p>
-          
+              <p class="site-description motion-element" itemprop="description"></p>
+           
         </div>
         <nav class="site-state motion-element">
 
@@ -872,6 +872,15 @@
                     <i class="fa fa-fw fa-weibo"></i>
                   
                   Weibo
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="" target="_blank" title="Facebook">
+                  
+                    <i class="fa fa-fw fa-facebook"></i>
+                  
+                  Facebook
                 </a>
               </span>
             
@@ -941,6 +950,8 @@
     
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
         
       </div>
     
